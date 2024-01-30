@@ -17,7 +17,7 @@ cap = cv2.VideoCapture(0)
 
 twist_msg = Twist()
 
-while rclpy.ok:
+while rclpy.ok():
 	ret,frame = cap.read()
 	if not ret:
 		break 
@@ -49,7 +49,7 @@ while rclpy.ok:
 	
 		twist_msg = Twist()
 		
-		twist_msg.linear.x = linear_scale if forward_gesture else (-linear_scale if backward_gesture else 0)
+		twist_msg.linear.x = float(linear_scale) if forward_gesture else (-float(linear_scale) if backward_gesture else 0.0)
 		twist_msg.angular.z = float(angular_scale) if right_gesture else (-float(angular_scale) if left_gesture else 0.0)
 	
 	        # Publishing the Twist message to control the turtle
