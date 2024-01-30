@@ -1,18 +1,28 @@
 This is the github repository for the third assignment in the course advanced robotics at middlesex university.
 In this repository I uploaded all the related files for this assignment.
-This repository contains the following things: Demonstration Video.
+This repository contains the following things: 
 
-                                               Report.
-                                               
-                                               Training model for Machine Learning.
-                                               
-                                               Programs.
+Demonstration Video.
+
+Report.
+
+Dataset.
+
+Training model for Machine Learning.
+                                            
+Programs.
 
 Demonstration Video:
 The demonstration video is attached as a link to the YouTube video under the folder named: "Demonstration Video"
 
 Report:
-the report is attached here in the repository as a PDF file named: "Human pose Estimation report - Sela Shapira M00956836"
+The report is attached here in the repository as a PDF file named: "Human pose Estimation report - Sela Shapira M00956836"
+
+Dateset:
+I uploaded the dataset for training the model, the dataset called:"pictures_for_data"
+
+Training model:
+I aded to this repository the Machine Learning model called: "pose_recog_model.pkl"
 
 Programs:
 in this repository I uploaed 7 program files which are as follows:
